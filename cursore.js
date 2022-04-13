@@ -1,5 +1,5 @@
 const cursoreTag = document.querySelector("div.cursore")
-const sfere = cursoreTag.querySelector("div")
+const sfera = cursoreTag.querySelector("div")
 
 
 let currentX = 0
@@ -23,6 +23,6 @@ const animate = function () {
 animate()
 
 document.addEventListener("mousemove", function (event) {
-    ball.style.left = event.pageX + "px"
-    ball.style.top = event.pageY + "px"
+    sfera.style.left = event.pageX + "px"
+    sfera.style.top = event.pageY + "px"
 })
