@@ -17,7 +17,7 @@ function cbsnake() {
         this.correct[this.correct.length] = this.correct[this.correct.length - 1] + this.jump
     }
     this.zero = 0;
-    var gameboard = ' <div class="board" id="board"> <div id="i2"> Provami!';
+    var gameboard = ' <div class="board" id="board"> <div id="i2"> Provami!</a> </div> </div><div class="board" id="score"> <span id="cscore">0</span> <span id="buttons"> <button type="button" id="slow" onClick="snake.slow()">Slow</button> <button type="button" id="medium"  onClick="snake.medium()">Medium</button> <button type="button" id="fast"  onClick="snake.fast()">Fast</button> </span></div>';
     document.write(gameboard);
 }
 
