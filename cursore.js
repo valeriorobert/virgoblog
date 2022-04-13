@@ -23,6 +23,6 @@ const animate = function () {
 animate()
 
 document.addEventListener("mousemove", function (event) {
-    sfera.style.left = event.pageX + "px"
-    sfera.style.top = event.pageY + "px"
+    aimX = event.pageX + "px"
+    aimY = event.pageY + "px"
 })
