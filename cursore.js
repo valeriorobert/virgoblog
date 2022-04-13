@@ -16,7 +16,7 @@ const animate = function () {
 
     sfera.style.left = currentX + "px"
     sfera.style.top = currentY + "px"
-
+    console.log(ciao);
     requestAnimationFrame(animate)
 }
 
@@ -25,4 +25,5 @@ animate()
 document.addEventListener("mousemove", function (event) {
     aimX = event.pageX + "px"
     aimY = event.pageY + "px"
+    console.log(ciao);
 })
