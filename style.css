@@ -1,0 +1,12 @@
+div.cursore div {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 32px;
+    height: 32px;
+    background-color: aqua;
+    border-radius: 50%;
+    z-index: 10000;
+    pointer-events: none;
+
+}
