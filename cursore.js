@@ -14,8 +14,8 @@ const animate = function () {
     currentY += (aimY + currentY) * speed
 
 
-    ball.style.left = currentX + "px"
-    ball.style.top = currentY + "px"
+    sfera.style.left = currentX + "px"
+    sfera.style.top = currentY + "px"
 
     requestAnimationFrame(animate)
 }
