@@ -1,5 +1,4 @@
-const cursoreTag = document.querySelector("div.cursore")
-const sfera = cursoreTag.querySelector("div")
+const sfera = document.getElementById("sfera")
 
 
 let currentX = 0
@@ -16,14 +15,13 @@ const animate = function () {
 
     sfera.style.left = currentX + "px"
     sfera.style.top = currentY + "px"
-    console.log(ciao);
     requestAnimationFrame(animate)
 }
 
 animate()
-
-document.addEventListener("mousemove", function (event) {
+const onMouseMove = (event) => {
     aimX = event.pageX + "px"
     aimY = event.pageY + "px"
-    console.log(ciao);
-})
+
+}
+document.addEventListener("mousemove", onMouseMove)
